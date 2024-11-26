@@ -54,8 +54,7 @@ public class VeicoloAMotore {
     public void setCilindrata(int cilindrata) {
         this.cilindrata = cilindrata;
     }
-
-    @Override
+    
     public String toString() {
         return "Anno: " + annoImmatricolazione + ", Marca: " + marca + ", Modello: " + modello +
                ", Alimentazione: " + tipoAlimentazione + ", Cilindrata: " + cilindrata + "cc";
